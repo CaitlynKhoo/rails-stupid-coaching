@@ -1,0 +1,9 @@
+  <form action="/answer" method="get" data-turbo="false">
+    <label for="userQ">Ask your coach anything:</label>
+    <input id="userQ" type="text"
+    name="question"
+    placeholder="Ask me something"
+    value="<%#=params[:question]%>"
+    class="form-control">
+    <input type="submit" value="Ask!" class="btn btn-primary">
+  </form>
